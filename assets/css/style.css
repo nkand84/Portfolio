@@ -24,8 +24,8 @@ body::before {
       right: 0;
       bottom: 0;
       left: 0;
-      background-image:  linear-gradient(to right, #c299ff, #ffb3ff,  #ffb3b3, #ff944d);
-      opacity: 0.865; 
+      background-image:  linear-gradient(to right, #c299ff, #ffb3ff,    #ffb3b3, #ff944d);
+      opacity: 1; 
     }
 #brand{
   width:50px;
@@ -53,9 +53,12 @@ a:hover{
 }
 #content{
   color: #fff;
-  text-align: center;
   padding-top: 15%;
-  text-shadow:0px 5px 4px rgba(0,0,0,0.4),0px 10px 8px rgba(0,0,0,0.1),0px 15px 18px rgba(0,0,0,0.1);
+  /* text-shadow:0px 5px 4px rgba(0,0,0,0.4),0px 10px 8px rgba(0,0,0,0.1),0px 15px 18px rgba(0,0,0,0.1); */
+}
+h1{
+  font-weight:700;
+  font-size: 50px;
 }
   
   
