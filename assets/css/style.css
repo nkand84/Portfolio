@@ -13,8 +13,9 @@
    
     font-family: sans-serif;
     background-color: pink;
-    background: url("images/hero1.jpg")center center no-repeat;;
+    background: url("imgs/hero1.jpg")center center no-repeat;
     background-size: cover;
+    
   }
   body::before {
     content: '';
@@ -27,7 +28,26 @@
       opacity: 0.865; 
     }
      
-    
+    .navbar{
+    padding:35px 60px !important;
+}
+.navbar-brand{
+    font-size:20px;
+}
+.navbar .navbar-toggler .navbar-toggler-icon{
+   color: #fff !important;
+}
+
+a{
+    color: #fff !important;
+    text-transform: uppercase;
+    font-size:16px;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+a:hover{
+    color: #e7e0e9 !important;
+}
   
   
   
