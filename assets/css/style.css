@@ -27,7 +27,10 @@ body::before {
       background-image:  linear-gradient(to right, #c299ff, #ffb3ff,  #ffb3b3, #ff944d);
       opacity: 0.865; 
     }
-     
+#brand{
+  width:50px;
+  height: 40px;
+}   
 .navbar{
     padding:35px 60px !important;
 }
