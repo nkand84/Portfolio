@@ -146,3 +146,10 @@ h3{
   padding:15px;
   top:140px;
 }
+.card{
+  display: inline-block;
+}
+.card-text{
+  color: rgb(119, 107, 107);
+  
+}
