@@ -57,6 +57,12 @@ h1{
   font-size: 50px;
 }
 
+h4, .btn-skills{
+  background: -webkit-linear-gradient(rgba(160, 114, 204, 0.925), rgba(218, 124, 67, 0.973));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .footer {
   clear: both;
   width:100%;
@@ -88,9 +94,10 @@ h1{
 
 #personal{
   
-  max-width: 100%;
+  max-width: 40%;
   height:auto;
-  margin-right: 30px;
+  margin-right: 20px;
+  margin-bottom:10px;
   float: left;
   border-radius: 50%;
   border: 4px solid #fff;
@@ -106,7 +113,4 @@ h1{
 .btn-skills{
   margin-right:10px;
   margin-bottom:10px;
-}
-.section1{
-  margin-bottom:40px;
 }
