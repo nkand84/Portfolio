@@ -41,39 +41,30 @@
         </div>
     </nav>
 
-    <!-- main content starts here -->
     <div class="container">
-        <!-- container starts here -->
-
         <div class="row">
-            <!-- row starts here -->
-
-            <div class="col-lg-12 text-center">
-                <div id="content">
-                    <h1>Hi! I'm Nitya Kandukuri</h1>
-                    <h4>I'm a Full Stack Web Developer living in sunny San Diego, California</h4>
-                    <h5>If you like to work together, please feel free to get in touch.</h5>
-                    <a href="https://www.linkedin.com/in/nitya-k-a9a901b6/" target="_blank">
-                        <i class="fa fa-linkedin-square" style="font-size:36px"></i>
-                        <span></span>
-                    </a>
-                    <a href="https://github.com/nkand84" target="_blank">
-                        <i class="fa fa-github" style="font-size:36px"></i>
-                    </a>
-
-                    </h1>
-                </div>
-
+            <div class="col-sm-6 offset-sm-3">
+                <form id="contact-form" class="justify-content-center">
+                        <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="email" class="form-control" id="name" placeholder="Your Name">
+                            </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-submit">Submit</button>
+                </form>
             </div>
-
-
         </div>
-        <!-- row ends here -->
     </div>
-    <!-- container ends -->
     <div class="footer">
-            <p>Copyright &copy; 2018 Nitya Kandukuri</p>
-          </div>
+        <p>Copyright &copy; 2018 Nitya Kandukuri</p>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>

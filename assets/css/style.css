@@ -13,20 +13,15 @@ body {
    
     font-family: sans-serif;
     background-color: pink;
-    background: url("../imgs/hero1.jpg")center center no-repeat;
+    background: linear-gradient(to right, #c299ff, #ffb3ff,    #ffb3b3, #ff944d);
     background-size: cover;
     
   }
-body::before {
-    content: '';
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      background-image:  linear-gradient(to right, #c299ff, #ffb3ff,    #ffb3b3, #ff944d);
-      opacity: 1; 
-    }
+.container{
+  padding:10px;
+  padding-bottom: 50px !important;
+  margin-top:20px;
+}
 #brand{
   width:50px;
   height: 40px;
@@ -44,7 +39,7 @@ body::before {
 a{
     color: #fff !important;
     text-transform: uppercase;
-    font-size:18px;
+    font-size:16px;
     letter-spacing: 3px;
     font-weight: 500;
 }
@@ -62,13 +57,29 @@ h1{
 }
 
 .footer {
-  position: fixed;
-  left: 0;
+  width:100%;
+  height: 50px;
+  position: absolute;
+  right: 0;
   bottom: 0;
-  width: 100%;
-  color: white;
+  left: 0;
+  padding: 1rem;
   text-align: center;
+  color: white;
+    
+}
+#contact-form{
+  margin: 0 auto;
+  color: #fff;
+  font-weight: 600;
 }
   
-  
-  
+.btn-submit{
+  background-color:   #c299ff ;
+  color: #fff;
+  font-weight: 600;
+}
+
+.btn-submit:hover{
+  background-color: #f0b994;
+}
