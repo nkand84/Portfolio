@@ -195,9 +195,6 @@ h5{
 }
 
 @media (max-width:1980px) {
-  .container{
-    height: 100% !important;
-  }
   .footer {
     clear: both;
     width:100%;
