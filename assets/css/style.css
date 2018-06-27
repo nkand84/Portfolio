@@ -91,7 +91,7 @@ h5{
   position: absolute;
   right: 0;
   left: 0;
-  padding: 1rem;
+  padding: 1px;
   text-align: center;
   color: white;
     
@@ -204,7 +204,7 @@ h5{
     position: absolute;
     right: 0;
     left: 0;
-    padding: 1rem;
+    padding: 1px;
     text-align: center;
     color: white;
       
