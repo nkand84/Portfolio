@@ -145,7 +145,14 @@ h3{
   border-radius: 4px;
 }
 
-#special{
+#special, .social{
   text-decoration: none;
   color: #fff;
+}
+.social{
+  margin-right:10px;
+}
+.social:hover{
+  color: #e7e0e9 !important;
+  text-decoration: none;
 }
