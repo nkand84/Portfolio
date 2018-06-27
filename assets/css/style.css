@@ -65,10 +65,11 @@ h1{
   font-size: 50px;
 }
 
-h4, .btn-skills{
+h4{
   background: -webkit-linear-gradient(rgba(160, 114, 204, 0.925), rgba(218, 124, 67, 0.973));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
 }
 h3{
   background: -webkit-linear-gradient(rgb(243, 242, 245), rgb(245, 224, 212));
@@ -186,4 +187,9 @@ h5{
 .social:hover{
   color: #e7e0e9 !important;
   text-decoration: none;
+}
+.btn-skills{
+  background-color: transparent;
+  color: #fff !important;
+  font-weight: 700;
 }
