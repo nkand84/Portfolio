@@ -195,7 +195,7 @@ h5{
   font-weight: 700;
 }
 
-@media (max-width:2000px) and (min-width:90px) {
+/* @media (max-width:2000px) and (min-width:90px) {
   .footer {
     clear: both;
     width:100%;
@@ -208,4 +208,4 @@ h5{
     color: white;
       
   }
-} 
+}  */
