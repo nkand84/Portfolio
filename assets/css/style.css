@@ -25,95 +25,9 @@ body {
   margin-top:20px;
   padding-bottom:30px !important;
 }
+/* ------------------------other sections---------------------------- */
 .section1,.skills{
   margin-top: 40px !important;
-}
-#brand{
-  width:50px;
-  height: 40px;
-}   
-.navbar{
-    padding:35px 60px !important;
-}
-.navbar-brand{
-    font-size:22px;
-}
-.navbar .navbar-toggler .navbar-toggler-icon{
-   color: #fff !important;
-}
-
-.nav-link{
-    color: #fff !important;
-    text-transform: uppercase;
-    font-size:16px;
-    letter-spacing: 3px;
-    font-weight: 500;
-}
-.nav-link:hover{
-    color: #e7e0e9 !important;
-    text-decoration: none;
-}
-a:hover{
-  color: #fff !important;
-  text-decoration: none;
-}
-#content{
-  color: #fff;
-  padding-top: 10%;
-  /* text-shadow:0px 5px 4px rgba(0,0,0,0.4),0px 10px 8px rgba(0,0,0,0.1),0px 15px 18px rgba(0,0,0,0.1); */
-}
-h1{
-  font-weight:700;
-  font-size: 50px;
-}
-
-h4{
-  background: -webkit-linear-gradient(rgba(160, 114, 204, 0.925), rgba(218, 124, 67, 0.973));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
-}
-h3{
-  background: -webkit-linear-gradient(rgb(243, 242, 245), rgb(245, 224, 212));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-h5{
-  color:#fff;
-  text-align: center;
-  
-}
-.footer {
-  clear: both;
-  width:100%;
-  height: 30px;
-  position: absolute;
-  right: 0;
-  left: 0;
-  padding: 1rem;
-  text-align: center;
-  color: white;
-    
-}
-#contact-form{
-  margin: 0 auto;
-  color: #fff;
-  font-weight: 600;
-}
-.partition{
-  color: #ff944d;
-  font-size: 20px;
-  margin:0 5px 0 5px;
-}
-.btn-submit{
-  background-color:   #c299ff ;
-  color: #fff;
-  font-weight: 500;
-}
-
-.btn-submit:hover{
-  background-color: #f0b994;
 }
 
 #personal{
@@ -134,9 +48,15 @@ h5{
   text-align: justify;
 }
 
-.btn-skills{
-  margin-right:10px;
-  margin-bottom:10px;
+#contact-form{
+  margin: 0 auto;
+  color: #fff;
+  font-weight: 600;
+}
+.partition{
+  color: #ff944d;
+  font-size: 20px;
+  margin:0 5px 0 5px;
 }
 
 .card{
@@ -163,6 +83,113 @@ h5{
  
 }
 
+#content{
+  color: #fff;
+  padding-top: 10%;
+  /* text-shadow:0px 5px 4px rgba(0,0,0,0.4),0px 10px 8px rgba(0,0,0,0.1),0px 15px 18px rgba(0,0,0,0.1); */
+}
+
+
+/* -------------------------------Navbar section------------------------ */
+#brand{
+  width:50px;
+  height: 40px;
+}   
+.navbar{
+    padding:35px 60px !important;
+}
+.navbar-brand{
+    font-size:22px;
+}
+.navbar .navbar-toggler .navbar-toggler-icon{
+   color: #fff !important;
+}
+
+.nav-link{
+    color: #fff !important;
+    text-transform: uppercase;
+    font-size:16px;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+.nav-link:hover{
+    color: #e7e0e9 !important;
+    text-decoration: none;
+}
+
+/* -------------------------------links section------------------------ */
+a:hover{
+  color: #fff !important;
+  text-decoration: none;
+}
+
+#special, .social{
+  text-decoration: none;
+  color: #fff;
+}
+.social{
+  margin-right:10px;
+}
+.social:hover{
+  color: #e7e0e9 !important;
+  text-decoration: none;
+}
+
+/* -------------------------------headings section------------------------ */
+h1{
+  font-weight:700;
+  font-size: 50px;
+}
+
+h4{
+  background: -webkit-linear-gradient(rgba(160, 114, 204, 0.925), rgba(218, 124, 67, 0.973));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+h3{
+  background: -webkit-linear-gradient(rgb(243, 242, 245), rgb(245, 224, 212));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h5{
+  color:#fff;
+  text-align: center;
+  
+}
+
+/* -------------------------------footer section------------------------ */
+.footer {
+  clear: both;
+  width:100%;
+  height: 30px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+    
+}
+
+
+/* -------------------------------buttons section------------------------ */
+.btn-submit{
+  background-color:   #c299ff ;
+  color: #fff;
+  font-weight: 500;
+}
+
+.btn-submit:hover{
+  background-color: #f0b994;
+}
+
+.btn-skills{
+  margin-right:10px;
+  margin-bottom:10px;
+}
+
 #myBtn {
   display: none;
   position: fixed;
@@ -178,17 +205,7 @@ h5{
   border-radius: 4px;
 }
 
-#special, .social{
-  text-decoration: none;
-  color: #fff;
-}
-.social{
-  margin-right:10px;
-}
-.social:hover{
-  color: #e7e0e9 !important;
-  text-decoration: none;
-}
+
 .btn-skills{
   background-color: transparent;
   color: #fff !important;
