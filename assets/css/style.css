@@ -12,7 +12,7 @@ html, body {
 body {
    
   color: #fff;
-    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
     background-color: pink;
     background: linear-gradient(to right, #c299ff, #ffb3ff,    #ffb3b3, #ff944d);
     background-size: cover;
@@ -37,14 +37,14 @@ body {
    color: #fff !important;
 }
 
-a{
+.nav-link{
     color: #fff !important;
     text-transform: uppercase;
     font-size:16px;
     letter-spacing: 3px;
     font-weight: 500;
 }
-a:hover{
+.nav-link:hover{
     color: #e7e0e9 !important;
     text-decoration: none;
 }
@@ -145,3 +145,7 @@ h3{
   border-radius: 4px;
 }
 
+#special{
+  text-decoration: none;
+  color: #fff;
+}
