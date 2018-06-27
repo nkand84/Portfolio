@@ -88,6 +88,7 @@ h5{
   height: 40px;
   margin-top:40px;
   position: absolute;
+  bottom: 0;
   right: 0;
   left: 0;
   padding: 1rem;
@@ -200,6 +201,7 @@ h5{
     height: 40px;
     margin-top:40px;
     position: absolute;
+    bottom: 0;
     right: 0;
     left: 0;
     padding: 1rem;
@@ -215,6 +217,7 @@ h5{
     height: 40px;
     margin-top:40px;
     position: absolute;
+    bottom: 0;
     right: 0;
     left: 0;
     padding: 1rem;
