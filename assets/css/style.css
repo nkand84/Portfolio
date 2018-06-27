@@ -138,11 +138,12 @@ h5{
   display: inline-block;
   margin-bottom: 10px;
   margin-right: 2px;
+  padding: 0px 0px 8px 0;
   
 }
 .card-body{
   
-  padding:5px !important;
+  padding:0px !important;
   text-align: center;
 }
 
@@ -153,6 +154,8 @@ h5{
 }
 .card-title{
   background-color:#f0b994;
+  margin-bottom:5px !important;
+ 
 }
 
 #myBtn {
