@@ -48,6 +48,10 @@ body {
     color: #e7e0e9 !important;
     text-decoration: none;
 }
+a:hover{
+  color: #fff !important;
+  text-decoration: none;
+}
 #content{
   color: #fff;
   padding-top: 10%;
