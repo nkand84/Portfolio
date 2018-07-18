@@ -26,7 +26,7 @@ body {
   padding-bottom:30px !important;
 }
 /* ------------------------other sections---------------------------- */
-.section1,.skills{
+.section1, .skills{
   margin-top: 40px !important;
 }
 
@@ -216,5 +216,40 @@ h5{
   color: #fff !important;
   font-weight: 700;
 }
+
+/* -------------------skill bar--------------------------------------------- */
+.skillbar {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.skillbar-bar:before {
+  background: #918383;
+  content: "";
+  height: 10px;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.skillbar-bar {
+  height: 10px;
+  width: 0px;
+  background:  rgb(231, 217, 231);
+  transition-property: width, background-color;
+}
+
+.skillbar-title {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  /* display: inline-block; */
+}
+
+
+
 
 /* end */
